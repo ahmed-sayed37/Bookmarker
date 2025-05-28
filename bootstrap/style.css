@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8e8d8 !important;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  position: relative !important;
+  z-index: 1;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: .9375rem;
+  background-color: #fec260;
+  transition: height 400ms;
+  z-index: -1;
+
+}
+
+h1:hover::before {
+  height: 50%;
+}
+
+
+
+
+
+.bookmark {
+  border-width: 2px 0 2px 0;
+  border-top-style: dotted;
+  border-color: #352e28;
+}
+
+.bookmark h2 {
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+button {
+  width: 200px;
+  height: 50px;
+}
+
+
+.btn-after {
+  background-color: #9eb23b !important;
+  border-color: #9eb23b !important;
+  color: #fff !important;
+  width: 100px;
+}
+
+
+.btn-after:hover {
+  background-color: #8a9e23 !important;
+  border-color: #fff !important;
+  border-color: #6e8018 !important;
+}
+
+.bookmark2 {
+  border-width: 2px 0 2px 0;
+  border-bottom-style: dotted;
+  border-color: #352e28;
+}
+
+.table {
+  border: none solid transparent !important;
+}
